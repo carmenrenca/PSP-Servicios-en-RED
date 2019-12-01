@@ -12,7 +12,15 @@ public class utilescarmen {
 	 * y aplica los try catch necesarios durante el proceso.
 	 * @return Número entero controlado positivo (incluyendo el 0)
 	 * */
-
+	
+	public int contarcaracteres(String cadena) {
+		char[] cadenacaracteres=cadena.toCharArray();
+		
+		return cadenacaracteres.length;
+		
+	}
+	
+	
 	public int controlaIntPositivo() throws IOException {
 
 		int n = 0;
